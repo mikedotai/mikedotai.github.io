@@ -229,6 +229,12 @@ a:focus-visible {
   background: rgba(232, 116, 59, 0.12);
 }
 
+.btn--soon {
+  border-color: var(--line);
+  color: var(--text-3);
+  cursor: default;
+}
+
 /* Footer */
 
 .site-footer {
