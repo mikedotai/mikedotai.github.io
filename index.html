@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Space+Mono&display=swap">
-  <link rel="stylesheet" href="/style.css?v=2">
+  <link rel="stylesheet" href="/style.css?v=3">
 </head>
 <body>
   <header class="site-header wrap">
@@ -137,32 +137,17 @@
 
         <div class="project__media">
           <div class="cover">
-            <div class="cover__art" aria-hidden="true">
-              <span class="cover__tag">Ember Beats</span>
-              <span class="cover__sun"></span>
-              <span class="cover__stripe" style="--top: 54%; --h: 4px"></span>
-              <span class="cover__stripe" style="--top: 61%; --h: 6px"></span>
-              <span class="cover__stripe" style="--top: 67%; --h: 8px"></span>
-              <span class="cover__stripe" style="--top: 72.5%; --h: 10px"></span>
-              <span class="cover__stripe" style="--top: 77%; --h: 12px"></span>
-              <span class="cover__ground"></span>
+            <p class="cover__head">Featured track</p>
+            <!-- Odesli / song.link embed: swap the url= part to feature another track -->
+            <div class="embed">
+              <iframe
+                src="https://odesli.co/embed/?url=https%3A%2F%2Fsong.link%2Fautumn-evening&theme=dark"
+                title="Ember Beats featured track: listen on Spotify, YouTube and more"
+                loading="lazy"
+                allowfullscreen
+                sandbox="allow-same-origin allow-scripts allow-presentation allow-popups allow-popups-to-escape-sandbox"
+                allow="clipboard-read; clipboard-write"></iframe>
             </div>
-            <a class="player" href="https://www.youtube.com/@EmberBeats" target="_blank" rel="noopener">
-              <span class="player__play" aria-hidden="true">
-                <svg class="icon icon--16" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-              </span>
-              <span class="player__text">
-                <span class="player__label">Latest on YouTube</span>
-                <span class="player__title">Watch the newest track</span>
-              </span>
-              <span class="wave" aria-hidden="true">
-                <span style="--h: 10px"></span><span style="--h: 18px"></span><span style="--h: 26px"></span><span style="--h: 14px"></span>
-                <span style="--h: 30px"></span><span style="--h: 22px"></span><span style="--h: 12px"></span><span style="--h: 28px"></span>
-                <span style="--h: 34px"></span><span style="--h: 20px"></span><span style="--h: 16px"></span><span style="--h: 26px"></span>
-                <span style="--h: 32px"></span><span style="--h: 18px"></span><span style="--h: 10px"></span><span style="--h: 24px"></span>
-                <span style="--h: 30px"></span><span style="--h: 16px"></span><span style="--h: 22px"></span><span style="--h: 12px"></span>
-              </span>
-            </a>
           </div>
         </div>
       </div>
