@@ -66,16 +66,6 @@ In its index row: add `index__row--live` to the `<a>` and change the status to `
 
 Keep `target="_blank" rel="noopener"` on every link that leaves the site.
 
-## Spotify for Ember Beats
-
-When the channel exists, replace the `btn btn--soon` "Spotify · soon" `<span>` with:
-
-```html
-<a class="btn btn--outline" href="https://open.spotify.com/..." target="_blank" rel="noopener">Spotify</a>
-```
-
-and change the "Listen on" row to `YouTube · Spotify`.
-
 ## Publish
 
 Commit and push to `main`. GitHub Pages rebuilds in about a minute.
