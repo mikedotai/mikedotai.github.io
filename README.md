@@ -79,3 +79,5 @@ and change the "Listen on" row to `YouTube · Spotify`.
 ## Publish
 
 Commit and push to `main`. GitHub Pages rebuilds in about a minute.
+
+Browsers cache `style.css` for up to 10 minutes. Whenever you change it, bump the version in `index.html` (`/style.css?v=2` → `?v=3`) so visitors get the new file with the new HTML instead of a mismatched page.
